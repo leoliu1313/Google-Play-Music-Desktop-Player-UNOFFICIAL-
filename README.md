@@ -1,5 +1,5 @@
 ```
-# install node
+# install node (Recommend `6.3.x`)
 https://nodejs.org/en/
 
 # dev
@@ -7,7 +7,7 @@ npm install
 npm run build
 npm start
 
-# make .app package
+# make .app package at ./dist/
 npm run make:darwin
 ```
 
