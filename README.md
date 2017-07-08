@@ -1,3 +1,16 @@
+```
+# install node
+https://nodejs.org/en/
+
+# dev
+npm install
+npm run build
+npm start
+
+# make .app package
+npm run make:darwin
+```
+
 Google Play Music™ Desktop Player
 =========================
 
