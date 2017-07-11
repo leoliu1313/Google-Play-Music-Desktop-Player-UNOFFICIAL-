@@ -1,4 +1,5 @@
 ```
+
 # install node (Recommend `6.3.x`)
 https://nodejs.org/en/
 
@@ -9,6 +10,10 @@ npm start
 
 # make .app package at ./dist/
 npm run make:darwin
+
+# Custom Styles > Google Play Music > Reload Styles
+div#debugLabel{display:none}
+
 ```
 
 Google Play Music™ Desktop Player
