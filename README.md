@@ -4,14 +4,22 @@
 https://nodejs.org/en/
 
 # dev
+# install Xcode if possible and then run the following commands again
+rm -rf node_modules build
 npm install
 npm run build
 npm start
+
+# test
+# turn off "Use system window borders" and restart
+# there should be no border on mini player if "Use system window borders" is off
+# if it doesn't work, toggle "Use system window borders" with restart two times
 
 # make .app package at ./dist/
 npm run make:darwin
 
 # Custom Styles > Google Play Music > Reload Styles
+# hide debug messages
 div#debugLabel{display:none}
 
 ```
